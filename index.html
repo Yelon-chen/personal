@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <p class="eyebrow">games and stuff by you</p>
+        <h1>MY GAMES</h1>
+        <p class="intro">
+          Click a rectangle to open one of the games I made.
+        </p>
+      </header>
+
+      <main>
+        <section class="games-section" aria-labelledby="games-heading">
+          <div class="section-heading">
+            <h2 id="games-heading">Playable Projects</h2>
+            <p>Each rectangle can link to a live game page, download, or demo.</p>
+          </div>
+
+          <div id="games-grid" class="games-grid" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
