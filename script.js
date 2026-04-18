@@ -16,12 +16,12 @@ const games = [
     theme: "theme-fruit",
   },
   {
-    title: "Size of Life",
-    genre: "Interactive",
-    description: "Zoom through living things and compare scale in a playful visual way.",
-    link: "#",
+    title: "Infinite Spend",
+    genre: "Money Game",
+    description: "Keep spending absurd amounts of money and see just how far the total can go.",
+    link: "https://infinite-spend-6k37fkw1r-yelon-chens-projects.vercel.app/",
     action: "Open game",
-    theme: "theme-garden",
+    theme: "theme-money",
   },
 ];
 
