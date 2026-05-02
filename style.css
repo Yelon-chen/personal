@@ -308,6 +308,36 @@ body {
   color: #0f2b14;
 }
 
+.theme-auction {
+  color: #2f241c;
+  --card-bg: #f7f2e8;
+  --card-border: #8b6a2c;
+  --card-overlay:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.68), rgba(240, 231, 216, 0.85)),
+    radial-gradient(circle at 50% 10%, rgba(255, 255, 255, 0.5), transparent 45%);
+  --card-bubble: rgba(214, 191, 140, 0.18);
+}
+
+.theme-auction::before {
+  background:
+    linear-gradient(90deg, transparent 0 2%, rgba(204, 168, 91, 0.72) 2% 2.5%, transparent 2.5% 97.5%, rgba(204, 168, 91, 0.72) 97.5% 98%, transparent 98% 100%),
+    linear-gradient(180deg, transparent 0 5%, rgba(204, 168, 91, 0.72) 5% 5.8%, transparent 5.8% 94.2%, rgba(204, 168, 91, 0.72) 94.2% 95%, transparent 95% 100%),
+    linear-gradient(90deg, transparent 0 4.5%, rgba(204, 168, 91, 0.48) 4.5% 4.9%, transparent 4.9% 95.1%, rgba(204, 168, 91, 0.48) 95.1% 95.5%, transparent 95.5% 100%),
+    linear-gradient(180deg, transparent 0 9%, rgba(204, 168, 91, 0.48) 9% 9.4%, transparent 9.4% 90.6%, rgba(204, 168, 91, 0.48) 90.6% 91%, transparent 91% 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.25), transparent 40%);
+}
+
+.theme-auction h3,
+.theme-auction p,
+.theme-auction .status {
+  color: #2f241c;
+}
+
+.theme-auction h3 {
+  font-family: Georgia, serif;
+  letter-spacing: -0.04em;
+}
+
 .theme-captcha {
   --card-bg: #f8f8f8;
   --card-border: #999999;

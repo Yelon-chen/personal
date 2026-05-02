@@ -23,6 +23,14 @@ const games = [
     action: "Open game",
     theme: "theme-money",
   },
+  {
+    title: "The Auction Game",
+    genre: "Trivia Game",
+    description: "Study the artwork, guess the hammer price, and see how well you can read the room.",
+    link: "https://auction-three-rosy.vercel.app/",
+    action: "Open game",
+    theme: "theme-auction",
+  },
 ];
 
 const gamesGrid = document.getElementById("games-grid");
